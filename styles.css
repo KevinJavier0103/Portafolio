@@ -1,0 +1,140 @@
+body{
+    background-color: #827397;
+    font-family:"Press Start 2P" ;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    color:white
+
+}
+
+#header{
+    position: relative;
+}
+.name{
+    
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+
+}
+.work{
+    
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    transform: translate(-60%,-60%);
+    -webkit-transform: translate(-60%,-60%);
+    -moz-transform: translate(-60%,-60%);
+    -ms-transform: translate(-60%,-60%);
+    -o-transform: translate(-60%,-60%);
+    
+}
+.mensaje{
+    
+    position: absolute;
+    top: 85%;
+    left: 53%;
+    transform: translate(-60%,-60%);
+    -webkit-transform: translate(-60%,-60%);
+    -moz-transform: translate(-60%,-60%);
+    -ms-transform: translate(-60%,-60%);
+    -o-transform: translate(-60%,-60%);
+    
+}
+.title{
+    opacity: 0.5;
+    max-width: 100%;
+    height: auto;
+}
+.about{
+    margin: 3%;
+    padding: 1%;
+    font-size: 1em;
+}
+
+.image{
+    border: 0.5em solid;
+    margin: 2em;
+    max-width: 8em;
+    max-height: 8em;
+    background-color: white;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    display: flexbox;
+    justify-content: space-around;
+}
+#skylss{
+    
+    border:2%;
+    padding: 3%;
+}
+.navbar-brand{
+    font-size: 2.5em;
+    position: relative;
+    text-align: left;
+}
+
+.projects{
+    background-color:#363062 ;
+}
+.epn{
+    color:white;
+    border:none;
+}
+.about{
+    padding: 0%;
+    text-align: justify;
+}
+.contact{
+    background-color: #363062;
+    text-align: center;    
+}
+.contactMe{
+    padding: 1em 1em;
+}
+textarea{
+    font-size: 0.8em;
+    border-radius: 1em;
+    color: black;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    border: 2%;
+}
+input{
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+.icons{
+    background-color:#827397 ;
+    color:#363062;
+    font-size: 100%;
+    margin-top: 1em;
+    padding-top:0.5em ;
+}
+
+.fa-brands
+{
+    color:#363062;
+}
+.sub{
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
