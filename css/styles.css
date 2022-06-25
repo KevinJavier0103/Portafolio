@@ -1,19 +1,19 @@
 body{
-    background-color: #827397;
-    font-family:"Press Start 2P" ;
+    background-color: black;
+    font-family:"Montserrat" ;
     text-align: center;
     position: relative;
     margin: 0;
-    color:white
+    color: white;
 
 }
 
 #header{
     position: relative;
+
 }
 .name{
-    
-    position: absolute;
+    position: relative;
     top: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -25,8 +25,8 @@ body{
 }
 .work{
     
-    position: absolute;
-    top: 60%;
+    position: relative;
+    top: 50%;
     left: 53%;
     transform: translate(-60%,-60%);
     -webkit-transform: translate(-60%,-60%);
@@ -37,7 +37,7 @@ body{
 }
 .mensaje{
     
-    position: absolute;
+    position: relative;
     top: 85%;
     left: 53%;
     transform: translate(-60%,-60%);
@@ -47,6 +47,7 @@ body{
     -o-transform: translate(-60%,-60%);
     
 }
+
 .title{
     opacity: 0.5;
     max-width: 100%;
@@ -58,33 +59,56 @@ body{
     font-size: 1em;
 }
 
+.titles{
+    margin-top: 120px;
+    margin-bottom: 80px;
+    margin-right:30%;
+    font-size: 30px;
+}
+
+
 .image{
-    border: 0.5em solid;
+    
+    border: 0.1em ;
     margin: 2em;
     max-width: 8em;
     max-height: 8em;
-    background-color: white;
+    background-color:white;
     border-radius: 10%;
     -webkit-border-radius: 10%;
     -moz-border-radius: 10%;
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
-    display: flexbox;
-    justify-content: space-around;
-}
-#skylss{
     
-    border:2%;
+    
+}
+
+.logos{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+
+
+
+
+#skylss{
+    border:20%;
     padding: 3%;
 }
 .navbar-brand{
     font-size: 2.5em;
     position: relative;
     text-align: left;
+    
 }
 
 .projects{
-    background-color:#363062 ;
+    
 }
 .epn{
     color:white;
@@ -95,7 +119,6 @@ body{
     text-align: justify;
 }
 .contact{
-    background-color: #363062;
     text-align: center;    
 }
 .contactMe{
@@ -120,8 +143,6 @@ input{
 }
 
 .icons{
-    background-color:#827397 ;
-    color:#363062;
     font-size: 100%;
     margin-top: 1em;
     padding-top:0.5em ;
@@ -129,7 +150,8 @@ input{
 
 .fa-brands
 {
-    color:#363062;
+    color:white;
+    
 }
 .sub{
     border-radius: 1em;
